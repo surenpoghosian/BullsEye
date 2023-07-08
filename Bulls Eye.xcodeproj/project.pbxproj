@@ -13,6 +13,7 @@
 		338089A02A595BD000BA28A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3380899E2A595BD000BA28A3 /* Main.storyboard */; };
 		338089A22A595BD100BA28A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338089A12A595BD100BA28A3 /* Assets.xcassets */; };
 		338089A52A595BD100BA28A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338089A32A595BD100BA28A3 /* LaunchScreen.storyboard */; };
+		338089AD2A59641E00BA28A3 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338089AC2A59641E00BA28A3 /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		338089A12A595BD100BA28A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338089A42A595BD100BA28A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338089A62A595BD100BA28A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338089AC2A59641E00BA28A3 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				338089A12A595BD100BA28A3 /* Assets.xcassets */,
 				338089A32A595BD100BA28A3 /* LaunchScreen.storyboard */,
 				338089A62A595BD100BA28A3 /* Info.plist */,
+				338089AC2A59641E00BA28A3 /* GameLogic.swift */,
 			);
 			path = "Bulls Eye";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				3380899D2A595BD000BA28A3 /* ViewController.swift in Sources */,
 				338089992A595BD000BA28A3 /* AppDelegate.swift in Sources */,
+				338089AD2A59641E00BA28A3 /* GameLogic.swift in Sources */,
 				3380899B2A595BD000BA28A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
